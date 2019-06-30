@@ -26,8 +26,8 @@ address = Address(address=pub_key, secret=None, network='public')
 address.get()
 
 # Store XLM balance and convert to float 
-xlm_balance = float(address.balances[-1]['balance'])
+xlm_balance = float(address.balances[-1]['balance']) # XLM is always listed last in address.balances 
 
-#Print XLM balance and USD equivalent 
+# Print XLM balance and USD equivalent 
 print('\nCurrent XLM Balance: ' + str(xlm_balance) + ' XLM' + ' (~$' + str(xlm_price*xlm_balance) + ')')
 
