@@ -17,7 +17,7 @@ xlm_price =  1 / get_price(json_obj, 'XLM_USD')
 
 # Start 
 print ()
-pub_key = input("Import wallet: ")
+pub_key = input("Input public key: ")
 
 # Store address data in address variable
 address = Address(address=pub_key, secret=None, network='public')
