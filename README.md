@@ -1,4 +1,4 @@
-# 🐍 Python-XLM-Wallet-Reader 
+# 🐍 Stellar Address Reader 
 ### This script is catered to beginners looking to expirement with the Python SDK and Stellar Ticker. 
 
 ## 🛠 What it is
@@ -11,4 +11,4 @@ Make sure you have Python https://www.python.org/downloads/ installed.
 
 Run `pip install requests`
 
-Compile and run xlm_wallet_reader.py
+Compile and run stellar_address_reader.py
