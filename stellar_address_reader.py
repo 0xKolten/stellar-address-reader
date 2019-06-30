@@ -6,7 +6,7 @@ import json
 r = requests.get('https://ticker.stellar.org/markets.json')
 json_obj = r.json()
 
-# Parse through market data for USD_XLM pair - has most volume
+# Parse through market data for XLM_USD pair - has most volume
 def get_price(json_obj, name):
     for dict in json_obj['pairs']:
               if dict['name'] == name:
