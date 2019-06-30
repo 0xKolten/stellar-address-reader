@@ -11,4 +11,6 @@ Make sure you have Python https://www.python.org/downloads/ installed.
 
 Run `pip install requests`
 
+Run `pip install -U stellar-sdk` 
+
 Compile and run stellar_address_reader.py
