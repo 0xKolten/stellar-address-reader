@@ -2,7 +2,7 @@ from stellar_base.address import Address
 import requests
 import json
 
-# Get data market data from Stellar ticker
+# Get market data from Stellar ticker
 r = requests.get('https://ticker.stellar.org/markets.json')
 json_obj = r.json()
 
