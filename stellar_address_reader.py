@@ -9,8 +9,8 @@ json_obj = r.json()
 # Parse through market data for XLM_USD pair - has most volume
 def get_price(json_obj, name):
     for dict in json_obj['pairs']:
-              if dict['name'] == name:
-                  return dict['price']
+        if dict['name'] == name:
+            return dict['price']
 
 # Set XLM price in USD ( $1 / # XLM ) 
 xlm_price =  1 / get_price(json_obj, 'XLM_USD') 
