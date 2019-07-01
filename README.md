@@ -1,8 +1,8 @@
 # 🐍 Stellar Address Reader 
-### This script is catered to beginners looking to expirement with the Python SDK and Stellar Ticker. 
+### This script is for beginners looking to expirement with the Python Stellar SDK and Stellar Ticker. 
 
 ## 📋 What it is 
-I've put together a simple Python script for viewing a Stellar wallet's XLM balance and converting it USD using SDEX market data from https://ticker.stellar.org/
+I've put together a simple Python script for viewing a Stellar wallet's XLM balance and converting it to USD using SDEX market data from https://ticker.stellar.org/
 
 The code comments explain how it works. 
 
